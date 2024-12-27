@@ -1,3 +1,4 @@
+import React, { useRef} from 'react'
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Spline from '@splinetool/react-spline';
@@ -5,18 +6,15 @@ import Spline from '@splinetool/react-spline';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Home</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      
       <main>
+          <div className={styles.spline}>
         <Spline
           scene="https://prod.spline.design/vXgv9Ak06-gseQg0/scene.splinecode"
         />
+        </div>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+          Hi I'm Samuel Hernandez</h1>
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
         </p>
