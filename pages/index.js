@@ -40,12 +40,12 @@ export default function Home() {
           >
             <h3>Deploy &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              all the work got deleted
             </p>
           </a>
         </div>
       </main>
-
+     
       <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
