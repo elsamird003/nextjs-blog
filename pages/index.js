@@ -8,7 +8,20 @@ export default function Home() {
   return (
     <div className={styles.container}>
       
-      <main>
+      <main>   
+        <Head>
+         <title>Sam's Portfolio</title>
+       
+        </Head>
+        <nav className={styles.menuC}>
+          <ul className={styles.menu}>
+            <li className={styles.menuItem}><a href="#home">Home</a></li>
+            <li className={styles.menuItem}><a href="#about">About</a></li>
+            <li className={styles.menuItem}><a href="#services">Services</a></li>
+            <li className={styles.menuItem}><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+         
         
         {/* <Spline
           scene="https://prod.spline.design/vXgv9Ak06-gseQg0/scene.splinecode"
