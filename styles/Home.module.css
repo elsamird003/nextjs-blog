@@ -31,82 +31,18 @@
   text-align: center;
   text-decoration: none;
   display: block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .menuItem a:hover {
   background-color: #ddd;
   color: black;
+  transition: background-color 0.8s ease, color 0.3s ease;
+  border-radius: 4px;
 }
 
-
-.card {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition:
-    color 0.15s ease,
-    border-color 0.15s ease;
-}
-.spline{
-  width:100%;
-  height: 100%;
-}
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-}
 /* styles/NavBar.module.css */
 
-.navbar {
-  width: 100%;
-  background-color: #333;
-  padding: 1rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-}
-
-.navList {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-  padding: 0;
-}
-
-.navItem a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
-}
-
-.navItem a:hover {
-  color: #0070f3;
-}
 
 @media (max-width: 600px) {
   .grid {
