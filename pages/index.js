@@ -21,28 +21,30 @@ export default function Home() {
             <li className={styles.menuItem}><a href="#contact">Contact</a></li>
           </ul>
         </nav>
-        <div className={styles.background} id="home">
-        <ul class="background">
+      
+        <ul className={styles.background}>
         <li></li>
         <li></li>
         <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-</ul>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <h1 className={styles.title}>
+      Hi I'm Samuel Hernandez</h1>
+      </ul>
 
 
-        </div>
+      
         
         {/* <Spline
           scene="https://prod.spline.design/vXgv9Ak06-gseQg0/scene.splinecode"
@@ -50,9 +52,6 @@ export default function Home() {
    
         <h1 className={styles.title}>
           Hi I'm Samuel Hernandez</h1>
-        <div className={styles.picture}>
-            <img src= ".//" alt="Samuel Hernandez" />
-        </div>
       </main>
      
       <footer>
